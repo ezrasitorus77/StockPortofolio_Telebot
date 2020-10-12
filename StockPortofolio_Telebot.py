@@ -9,7 +9,7 @@ class User:
         self.stock_price = None
         self.shares_volume = None
 
-API_TOKEN = "810975399:AAGWhxFmw_Cs96ZVZG3PeM9gTlz2nLTDpaM"
+API_TOKEN = "{YOUR_TOKEN}"
 bot = telebot.TeleBot(API_TOKEN)
 
 #Show available command(s) and bot information
